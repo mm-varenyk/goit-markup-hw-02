@@ -1,6 +1,6 @@
 /* ------------------------ Global styles definition ------------------------ */
 body {
-  font-family: 'Roboto', 'Tahoma', sans-serif;
+  font-family: 'Roboto', sans-serif;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
@@ -22,6 +22,7 @@ address {
 .section-title {
   font-size: 36px;
   line-height: 1.11;
+  letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
 }
@@ -29,16 +30,17 @@ address {
 
 /* ----------------------------- Header styles ------------------------------ */
 .logo {
-  font-family: 'Raleway', 'Tahoma', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
-}
-.accent {
   color: #4d5ae5;
+}
+
+.logo .accent {
+  color: #2e2f42;
 }
 
 .menu-link {
@@ -79,7 +81,6 @@ address {
 }
 
 .hero-btn {
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
   font-family: inherit;
   font-size: inherit;
@@ -92,7 +93,6 @@ address {
 
 .hero-btn:hover,
 .hero-btn:focus {
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #404bbf;
 }
 
@@ -104,6 +104,7 @@ address {
   font-size: 20px;
   line-height: 1.2;
   color: #2e2f42;
+  letter-spacing: 0.02em;
 }
 /* -------------------------------------------------------------------------- */
 
@@ -113,6 +114,9 @@ address {
 }
 
 /* .section-title {} */
+.team .section-title {
+  text-transform: capitalize;
+}
 
 .team-item {
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
@@ -126,15 +130,21 @@ address {
   font-size: 20px;
   line-height: 1.2;
   color: #2e2f42;
+  letter-spacing: 0.02em;
 }
 /* -------------------------------------------------------------------------- */
 
 /* ---------------------------- Portfolio styles ---------------------------- */
+.portfolio .section-title {
+  text-transform: capitalize;
+}
+
 .portfolio-subtitle {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   color: #2e2f42;
+  letter-spacing: 0.02em;
 }
 /* -------------------------------------------------------------------------- */
 
@@ -143,16 +153,21 @@ address {
   background-color: #2e2f42;
 }
 .footer-logo {
-  font-family: 'Raleway', 'Trebuchet MS', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.footer-logo .accent {
   color: #f4f4fd;
 }
 
 .footer-text {
   color: #f4f4fd;
 }
+
 /* -------------------------------------------------------------------------- */
