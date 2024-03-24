@@ -76,6 +76,7 @@ address {
 .hero-title {
   font-size: 56px;
   line-height: 1.07;
+  letter-spacing: 0.02em;
   text-align: center;
   color: #ffffff;
 }
@@ -109,7 +110,7 @@ address {
 /* -------------------------------------------------------------------------- */
 
 /* ----------------------------- Team styles -------------------------------- */
-.team-section {
+.team {
   background-color: #f4f4fd;
 }
 
@@ -119,8 +120,6 @@ address {
 }
 
 .team-item {
-  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
-    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   background: #ffffff;
   text-align: center;
 }
