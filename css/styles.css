@@ -1,32 +1,35 @@
 /* ------------------------ Global styles definition ------------------------ */
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', 'Tahoma', sans-serif;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: #434455;
   background-color: #ffffff;
-}
-
-a {
-  text-decoration: none;
-  color: inherit;
 }
 
 ul {
   list-style-type: none;
 }
 
+a {
+  text-decoration: none;
+}
+
+address {
+  font-style: normal;
+}
+
 .section-title {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
-  letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
 }
 /* -------------------------------------------------------------------------- */
 
 /* ----------------------------- Header styles ------------------------------ */
-.header .logo {
-  font-family: 'Raleway', sans-serif;
+.logo {
+  font-family: 'Raleway', 'Tahoma', sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
@@ -34,181 +37,122 @@ ul {
   text-transform: uppercase;
   color: #2e2f42;
 }
-
-.logo .accent {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
+.accent {
   color: #4d5ae5;
 }
 
-.menu {
+.menu-link {
   font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
   color: #2e2f42;
 }
-
-.menu-item {
+.menu-link:hover,
+.menu-link:focus {
+  font-weight: 500;
+  color: #404bbf;
+}
+.underline:active {
+  text-decoration: underline;
+  text-decoration-thickness: 4px;
+  color: #404bbf;
 }
 
-.contacts {
+.contacts-link {
+  color: #434455;
 }
 
-.contacts-list {
-}
-
-.contacts-item {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
+.contacts-link:hover,
+.contacts-link:focus {
+  color: #404bbf;
 }
 /* -------------------------------------------------------------------------- */
 
-/* ------------------------------ Hero styles ------------------------------- */
+/* ----------------------------- Hero styles -------------------------------- */
 .hero {
   background-color: #2e2f42;
 }
 
 .hero-title {
-  font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
-  letter-spacing: 0.02em;
   text-align: center;
-  color: #fff;
+  color: #ffffff;
 }
 
-.order-btn {
+.hero-btn {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
+  font-family: inherit;
+  font-size: inherit;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
+  line-height: inherit;
   letter-spacing: 0.04em;
-  color: #fff;
+  color: #ffffff;
+  cursor: pointer;
 }
+
+.hero-btn:hover,
+.hero-btn:focus {
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background: #404bbf;
+}
+
 /* -------------------------------------------------------------------------- */
 
-/* --------------------------- Section 1 styles ----------------------------- */
-.principles-section {
-}
-
-.principles-list {
-}
-
-.principles-item {
-}
-
-.subtitle {
+/* --------------------------- Principles styles ---------------------------- */
+.principles-subtitle {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  letter-spacing: 0.02em;
   color: #2e2f42;
-}
-
-.principles-descr {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
 }
 /* -------------------------------------------------------------------------- */
 
-/* ----------------------- Section 2 (team) styles -------------------------- */
+/* ----------------------------- Team styles -------------------------------- */
 .team-section {
   background-color: #f4f4fd;
 }
 
-.team-list {
-}
+/* .section-title {} */
 
 .team-item {
-  background-color: #fff;
-}
-
-.team-image {
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  background: #ffffff;
+  text-align: center;
 }
 
 .team-subtitle {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  letter-spacing: 0.02em;
-  text-align: center;
   color: #2e2f42;
-}
-
-.team-descr {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: #434455;
 }
 /* -------------------------------------------------------------------------- */
 
-/* -------------------- Section 3 (portfolio) styles ------------------------ */
-.portfolio-section {
-}
-.portfolio-list {
-}
-.portfolio-item {
-}
-.portfolio-image {
-}
+/* ---------------------------- Portfolio styles ---------------------------- */
 .portfolio-subtitle {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  letter-spacing: 0.02em;
   color: #2e2f42;
-}
-.portfolio-descr {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
 }
 /* -------------------------------------------------------------------------- */
 
-/* -------------------------------- Footer ---------------------------------- */
+/* ----------------------------- Footer styles ------------------------------ */
 .footer {
   background-color: #2e2f42;
 }
 .footer-logo {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway', 'Trebuchet MS', sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #f4f4fd;
 }
 
-.footer-logo .accent {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.16667;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #4d5ae5;
-}
-
 .footer-text {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
   color: #f4f4fd;
 }
 /* -------------------------------------------------------------------------- */
